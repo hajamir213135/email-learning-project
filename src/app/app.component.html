@@ -1,0 +1,21 @@
+<nav class="navbar navbar-dark bg-dark">
+    <span class="navbar-brand mb-0 h1">Menu Email Planet</span>
+</nav>
+<br>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-4 bg-dark text-dark">
+            <ul>
+                <li><a routerLink="/">Home</a></li>
+                <li><a routerLink="/create">text box</a></li>
+                <li><a routerLink="/posts">inbox</a></li>
+                <li><a routerLink="/about-us">About us</a></li>
+                <li><a routerLink="/">Class</a></li>
+            </ul>
+        </div>
+        <div class="col-8 border">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>
